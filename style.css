@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: env(safe-area-inset-top) 20px env(safe-area-inset-bottom) 20px;
+  padding: env(safe-area-inset-top) 10px env(safe-area-inset-bottom) 10px;
   overflow: hidden;
 }
 .app::after {
@@ -51,9 +51,9 @@ body {
   display: none;
   width: 100%;
   background: #fff;
-  padding: 30px;
+  padding: 24px 12px;
   border-radius: 20px;
-  margin-top: 10dvh;
+  margin-top: 20dvh;
   z-index: 5;
 }
 
@@ -202,14 +202,6 @@ button {
 }
 
 @media (max-width: 600px) {
-  .app {
-    padding: 10px;
-  }
-
-  .screen {
-    padding: 24px 12px;
-  }
-
   h1 {
     font-size: 24px;
     margin-bottom: 10px;
