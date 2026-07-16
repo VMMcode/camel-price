@@ -22,7 +22,7 @@ body {
   position: relative;
   background: linear-gradient(135deg, #022e8a 0%, #0848be 50%, #3d8bfd 100%);
   font-family: var(--font-main);
-  color: #222;
+  color: #121212;
 }
 
 .app {
@@ -71,6 +71,7 @@ p {
 h1,
 h2 {
   font-family: var(--font-head);
+  color: #26548f;
   margin-bottom: 20px;
 }
 
