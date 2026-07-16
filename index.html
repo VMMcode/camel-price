@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сколько верблюдов я стою?</title>
+    <link
+      rel="shortcut icon"
+      href="img/camel-favicon.webp"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section id="start-screen" class="screen active">
+        <h1>Сколько верблюдов ты стоишь?</h1>
+        <p>Выбери пол, чтобы начать тест</p>
+
+        <div class="gender-buttons">
+          <div class="btn-wrap">
+            <img src="img/camel-male.webp" alt="" class="btn-img" />
+            <h5 class="btn-title">для парней</h5>
+            <button id="male-btn">Начать тест</button>
+          </div>
+          <div class="btn-wrap">
+            <img src="img/camel-female.webp" alt="" class="btn-img" />
+            <h5 class="btn-title">для девушек</h5>
+            <button id="female-btn">Начать тест</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="quiz-screen" class="screen">
+        <div class="progress">
+          <div class="progress-bar"></div>
+        </div>
+
+        <p class="question-counter"></p>
+
+        <h2 id="question"></h2>
+
+        <div id="answers"></div>
+      </section>
+
+      <section id="loading-screen" class="screen">
+        <h2>Считаем стоимость...</h2>
+        <div class="loader"></div>
+      </section>
+
+      <section id="result-screen" class="screen">
+        <h2>Результат</h2>
+
+        <div class="camel-result">
+          <img id="camel-image" src="" alt="Ваш верблюд" />
+        </div>
+
+        <p id="result-text"></p>
+
+        <div class="result-share">
+          <p id="share-text">Сделай скрин и поделись с друзьями 🐪</p>
+        </div>
+
+        <div class="actions">
+          <button id="restart-btn">Пройти снова</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
